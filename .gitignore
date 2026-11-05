@@ -3,3 +3,6 @@ Thumbs.db
 
 # Local Netlify folder
 .netlify
+
+# Keep local QA notes out of the public repository
+TESTING-LOG.md
