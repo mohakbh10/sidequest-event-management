@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" fill="none">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#15205f"/><stop offset=".55" stop-color="#502c84"/><stop offset="1" stop-color="#ee543d"/></linearGradient><radialGradient id="glow"><stop stop-color="#f4ca43" stop-opacity=".9"/><stop offset="1" stop-color="#f4ca43" stop-opacity="0"/></radialGradient></defs>
-  <path fill="url(#bg)" d="M0 0h1536v1024H0z"/><circle cx="1080" cy="300" r="420" fill="url(#glow)"/><circle cx="550" cy="870" r="490" fill="#ff6249" fill-opacity=".28"/>
-  <path d="M0 720 160 665l90 65 108-174 105 201 117-92 133 190 145-280 126 211 125-176 133 122 111-96 183 90v298H0V720Z" fill="#11162d" fill-opacity=".54"/>
-  <g fill="#f6d877"><circle cx="220" cy="330" r="5"/><circle cx="340" cy="422" r="4"/><circle cx="760" cy="275" r="5"/><circle cx="875" cy="390" r="4"/><circle cx="1350" cy="510" r="5"/><circle cx="1200" cy="220" r="4"/></g>
-  <g stroke="#fff5dc" stroke-opacity=".45" stroke-width="3"><path d="m260 0 140 1024M490 0 370 1024M770 0 640 1024M1030 0 920 1024M1300 0l-60 1024"/></g>
-  <text x="72" y="900" fill="#fff9ed" font-family="Arial,sans-serif" font-size="30" letter-spacing="7">YOUR CAMPUS FESTIVAL PHOTO</text><text x="72" y="950" fill="#fff9ed" fill-opacity=".7" font-family="Arial,sans-serif" font-size="17" letter-spacing="5">UPLOAD A WIDE IMAGE TO REPLACE THIS PLACEHOLDER</text>
-</svg>
