@@ -154,10 +154,10 @@ The event listing images use the photo references supplied for the project and a
 
 ## Submission
 
-The submission brief calls for a GitHub repository and a deployed website, for example on GitHub Pages, Netlify, or Vercel. The repository is available now; add the live site URL after deployment.
+The submission brief calls for a GitHub repository and a deployed website, for example on GitHub Pages, Netlify, or Vercel. The public repository and deployed site are linked below.
 
 - **Repository:** [github.com/mohakbh10/sidequest-event-management](https://github.com/mohakbh10/sidequest-event-management)
-- **Live site:** Not deployed yet. Add the GitHub Pages URL after deployment.
+- **Live site:** [sidequest-event-management.vercel.app](https://sidequest-event-management.vercel.app)
 
 ## Acknowledgements
 
