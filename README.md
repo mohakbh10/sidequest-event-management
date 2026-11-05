@@ -141,5 +141,5 @@ The sample event dates are generated relative to the visitor's current date, so 
 
 The submission brief calls for a GitHub repository and a deployed website, for example on GitHub Pages, Netlify, or Vercel. The ready static site can be published on any of these hosts. Add the repository and deployment URLs here once they exist.
 
-- **Repository:** _To be added_
-- **Live site:** _To be added_
+- **Repository:** Local Git repository (`main` branch); no GitHub remote is connected yet.
+- **Live site:** [sidequest-find-your-next-thing.netlify.app](https://sidequest-find-your-next-thing.netlify.app)
