@@ -2,7 +2,7 @@
 
 **Tagline:** Find your next thing.
 
-Sidequest is a responsive event discovery website for finding what is happening nearby. Student-led and campus events are a featured part of the experience, while events open to the wider community make the platform useful to a broader audience.
+Sidequest is a responsive event discovery website for finding what is happening around KIIT, Patia, and Bhubaneswar. Student-led and campus events are prominent, with clear audience labels for events open to the wider community.
 
 The site is implemented as a static front-end project. It does not require an account, API key, or backend.
 
@@ -15,7 +15,7 @@ The site is implemented as a static front-end project. It does not require an ac
 
 ## Audience and event access
 
-The platform is for people looking for things to do. Student and campus events should be prominent, while each listing makes its audience clear. Use audience labels such as **Students**, **Campus community**, and **Open to all**. Avoid implying that every event is available to every visitor.
+The platform is centered on KIIT students and the Bhubaneswar community. Each listing makes its audience clear with labels such as **Students**, **Campus community**, and **Open to all**. Avoid implying that every event is available to every visitor.
 
 ## Features
 
@@ -40,7 +40,7 @@ The platform is for people looking for things to do. Student and campus events s
 
 ## Design direction
 
-The visual direction is **bold festival energy**: expressive typography, vivid accent colors, striking event photography, and confident contrast. Layout and controls should remain clear and usable, so visual effects support event discovery instead of competing with it.
+The visual direction is **bold festival energy**: expressive typography, vivid accent colors, event photography, and confident contrast. The current image files are illustrative SVG placeholders awaiting the event photos selected for the project.
 
 Design principles:
 
@@ -76,13 +76,17 @@ Local Storage is specific to the current browser and device. It does not send re
 
 ## Suggested event data
 
-Use a varied set of realistic sample events across music, arts, technology, food, workshops, and community activities. Each event should have:
+The current sample listings use illustrative Bhubaneswar student-event ideas such as Campus Beats, Pattachitra: Paint & Pattern, Patia Night Bazaar, Moonlight Movie Adda, Chai & Chapters, and Build for Bhubaneswar. Event names, dates, schedules, prices, and venues are demo content rather than a confirmed KIIT calendar. Confirm all details with organizers before publishing real event information.
+
+KIIT's Student Activity Centre (KSAC) is based at Campus 13, Patia, Bhubaneswar and supports student extracurricular activities. KIIT's official campus information also lists auditoriums and open-air theatres; the sample venue wording in this project should still be verified with event organizers before use. See [KIIT KSAC](https://ksac.kiit.ac.in/) and [KIIT Auditorium information](https://kiit.ac.in/campuslife/auditorium/).
+
+Each event record should have:
 
 - A stable ID and URL slug
 - Name, category, audience label, and short and full descriptions
 - Start and end date/time, including a consistent time-zone convention
 - Venue name and location
-- Image URL or local asset path and alt text
+- Local image path and alt text
 - Optional price and featured status
 
 Sample content should include both campus/student events and events open to everyone so audience filters and labels have a purpose.
@@ -111,17 +115,28 @@ The event detail page is a shared template, selected by an event ID in the URL. 
 
 ## Run locally
 
-From the project folder, start a static local server:
+### Using VS Code
+
+1. Open VS Code and choose **File → Open Folder…**.
+2. Select the `outputs` folder that contains `index.html`, `event.html`, and `assets/`.
+3. Open **Terminal → New Terminal**. Make sure the terminal is in that folder, then run:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then visit [http://localhost:8000](http://localhost:8000). Serving the files over HTTP gives browser storage and relative asset URLs a consistent local environment.
+4. Open [http://localhost:8000](http://localhost:8000) in your browser.
+5. Keep the terminal running while you work. Press **Ctrl+C** in that terminal to stop the local server.
+
+Serving the files over HTTP gives browser storage and relative asset URLs a consistent local environment. If VS Code opened a different folder, change the terminal into `outputs` first with `cd outputs` before running the server command.
 
 ## Demo data and privacy
 
 The sample event dates are generated relative to the visitor's current date, so countdowns remain active when the project is revisited later. Registration, saved-event, and newsletter demo records remain in the current browser's Local Storage. The newsletter form does not send an email, and registration does not contact event organizers. The form confirmation states this clearly.
+
+### Supplying event photography
+
+Replace the temporary files in `assets/images/` with user-provided photos. A wide landscape hero image works best; event-card images should be landscape and ideally share a similar crop. Current placeholder paths are `hero-placeholder.svg`, `music-placeholder.svg`, `art-placeholder.svg`, `food-placeholder.svg`, and `community-placeholder.svg`.
 
 ## Completion checklist
 
@@ -141,5 +156,9 @@ The sample event dates are generated relative to the visitor's current date, so 
 
 The submission brief calls for a GitHub repository and a deployed website, for example on GitHub Pages, Netlify, or Vercel. The ready static site can be published on any of these hosts. Add the repository and deployment URLs here once they exist.
 
-- **Repository:** Local Git repository (`main` branch); no GitHub remote is connected yet.
-- **Live site:** [sidequest-find-your-next-thing.netlify.app](https://sidequest-find-your-next-thing.netlify.app)
+- **Repository:** Not published yet. Add the GitHub repository URL after you create and push it.
+- **Live site:** Not deployed yet. Add the GitHub Pages URL after deployment.
+
+## Acknowledgements
+
+AI tools assisted with brainstorming, copy drafts, implementation, and testing. Mohak Bhattacharya provided the project brief, Sidequest direction, and KIIT/Bhubaneswar context. Event descriptions, dates, hosts, prices, and venues are illustrative sample content and should be replaced or verified before being presented as actual listings.

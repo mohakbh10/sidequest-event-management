@@ -32,6 +32,7 @@
       <section class="detail-hero">
         <div class="detail-hero-image"><img src="${event.image}" alt="${escapeHTML(event.imageAlt)}"><span class="detail-image-caption">SIDEQUEST NO. ${String(events.indexOf(event) + 1).padStart(2, "0")} <i>✳</i> MAKE A PLAN</span></div>
         <div class="detail-intro"><div class="detail-badges"><span class="category-label">${escapeHTML(event.category)}</span><span class="audience-tag">${escapeHTML(event.audience)}</span></div>
+          <p class="sample-event-note">SAMPLE EVENT · DETAILS ARE ILLUSTRATIVE</p>
           <p class="eyebrow">${escapeHTML(event.subtitle)}</p><h1>${escapeHTML(event.title)}</h1><p class="detail-lede">${escapeHTML(event.excerpt)}</p>
           <div class="detail-quickfacts"><div>${icon("calendar")}<span><b>${formattedDate.format(date)}</b><small>${formattedTime.format(date)} – ${formattedTime.format(end)}</small></span></div><div>${icon("pin")}<span><b>${escapeHTML(event.venue)}</b><small>${escapeHTML(event.location)}</small></span></div><div>${icon("ticket")}<span><b>${escapeHTML(event.price)}</b><small>Registration takes less than a minute</small></span></div></div>
           <a class="button button-accent" href="#registration">Count me in <span aria-hidden="true">↘</span></a>
@@ -47,7 +48,7 @@
             <input type="hidden" name="eventId" value="${escapeHTML(event.id)}">
             <div class="form-field"><label for="participant-name">Your name</label><input id="participant-name" name="name" type="text" autocomplete="name" placeholder="e.g. Jamie Parker" required minlength="2" aria-describedby="name-error"><span class="field-error" id="name-error"></span></div>
             <div class="form-field"><label for="participant-email">Email address</label><input id="participant-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required aria-describedby="email-error"><span class="field-error" id="email-error"></span></div>
-            <div class="form-field"><label for="participant-phone">Phone number <span>(for event updates)</span></label><input id="participant-phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 555 123 4567" required aria-describedby="phone-error"><span class="field-error" id="phone-error"></span></div>
+            <div class="form-field"><label for="participant-phone">Phone number <span>(for event updates)</span></label><input id="participant-phone" name="phone" type="tel" autocomplete="tel" placeholder="+91 98765 43210" required aria-describedby="phone-error"><span class="field-error" id="phone-error"></span></div>
             <label class="consent-check"><input id="registration-consent" type="checkbox" required aria-describedby="consent-error"><span class="custom-check" aria-hidden="true"></span><span>Save my spot and remember my details for this event.</span></label><span class="field-error consent-error" id="consent-error"></span>
             <button class="button button-ink registration-submit" type="submit">Register for free <span aria-hidden="true">↗</span></button>
             <p class="privacy-note">Demo registration only. Your details stay in this browser and are not sent to the organizers.</p>
