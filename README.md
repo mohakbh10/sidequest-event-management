@@ -150,7 +150,7 @@ The event listing images use the photo references supplied for the project and a
 - [x] Countdown timers update and handle events that have started.
 - [x] Responsive layouts, keyboard focus, form labels, and reduced-motion behavior are included.
 - [x] Local run instructions are included.
-- [ ] GitHub repository and deployed site links are added after publication.
+- [x] GitHub repository and deployed site links are added after publication.
 
 ## Submission
 
